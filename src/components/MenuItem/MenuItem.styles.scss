@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
 
@@ -51,6 +50,7 @@
     justify-content: center;
     background-color: rgba(#fff, 0.7);
     position: absolute;
+    transition: all 1.5s ease;
 
     .title {
       font-weight: bold;
