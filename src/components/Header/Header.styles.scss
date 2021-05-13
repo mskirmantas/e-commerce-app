@@ -20,6 +20,14 @@
 
     .option {
       padding: 10px 15px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.25s ease-in-out;
+      border: none;
+
+      &:hover {
+        color: rgb(218, 178, 0);
+      }
     }
   }
 }
