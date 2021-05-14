@@ -35,7 +35,7 @@ class SignIn extends React.Component {
         return(
             <div className="SignIn">
                 
-                <h2>I already have an account</h2>
+                <h2 className="title">I already have an account</h2>
 
                 <span>Sign in with your email and password</span>
 
